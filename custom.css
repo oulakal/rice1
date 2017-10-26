@@ -1,0 +1,72 @@
+#tabs-container.top {border-bottom: none !important;}
+
+.vivaldi, .toggle-trash, .button-toolbar.back, .button-toolbar.forward, .button-toolbar.reload,
+.button-toolbar.home, button.button-addressfield, .favicon, .button-tabbar, #tabs-container.top .tab-position .tab .favicon, #tabs-container.top .tab-position .tab .close, #tabs-container .tab:not(.active) .tab-audio .audioicon, .isblurred #tabs-container .tab-audio .audioicon, .audioicon, .addressfield .pageload {
+	display: none !important;
+}
+.win.normal #tabs-container.top, .linux.normal #tabs-container.top {padding: 0px !important;}
+
+.toolbar-addressbar {
+	box-shadow: none !important;
+	height: 34px !important;
+}
+.toolbar {position: initial !important;}
+
+.addressfield {
+	border: none !important;
+	background-color: var(--colorBg) !important;
+}
+.toolbar-addressbar .button-toolbar, .toolbar-mailbar .button-toolbar {
+	background-color: var(--colorBg) !important;
+}
+input.url {
+	background-color: var(--background) !important;
+	color: var(--foreground) !important;
+	text-align: center !important;
+	padding-right: 6px !important;
+}
+.tab-position .tab:not(.active) .tab-header {
+	color: var(--foreground) !important;
+	opacity: 0.4 !important;
+}
+.tab-position .tab.active .tab-header .title {
+	color: var(--foreground) !important;
+}
+.tab-position .tab .title {
+	margin-left: -2px !important;
+}
+.toolbar-addressbar .button-toolbar.browserAction-button img {
+	opacity: 0.7 !important;
+}
+#tabs-container.top .tab-strip {
+	display: flex !important;
+}
+
+#tabs-container.top .tab-strip span {
+	flex: 1 1 0 !important;
+	display: flex !important;
+	justify-content: center !important;
+}
+
+#tabs-container.top .tab-position {
+    flex: 1 1 0 !important;
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+    height: 30px !important;
+}
+
+#tabs-container.top .tab-position .tab .favicon,
+#tabs-container.top .tab-position .tab .close {
+    flex: 0 0 18px !important;
+}
+
+#tabs-container.top .newtab {
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+}
+.tab-position .tab-header .title {
+    text-align: center !important;
+    display: block !important;
+}
